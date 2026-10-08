@@ -1,0 +1,15 @@
+{
+  "name": "safeseat-sms-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure SafeSeat Emergency SMS backend for Vercel, Firebase Admin, and TextBee.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node --check api/send-sms.js && node --check api/health.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.5.0"
+  }
+}
